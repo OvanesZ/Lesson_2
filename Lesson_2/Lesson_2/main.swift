@@ -29,3 +29,13 @@ func evenThree(num1 a:Int){
 }
 
 evenThree(num1: 10)
+
+//////////////////////////// task 3 /////////////////////////////////
+// возрастающий массив из 100 чисел
+
+var array: [Int] = []
+for i in 0...99{
+    array.append(i+1)
+}
+
+print(array)
