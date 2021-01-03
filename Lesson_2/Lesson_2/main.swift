@@ -7,6 +7,7 @@
 
 import Foundation
 
+/////////////////////////// task 1 ////////////////////////////////
 
 func even(num1 a: Int){
     if a % 2 == 0{
@@ -15,6 +16,7 @@ func even(num1 a: Int){
         print("Число нечетное")
     }
 }
+
 
 even(num1: 17)
 
